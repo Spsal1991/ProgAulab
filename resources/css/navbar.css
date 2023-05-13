@@ -1,0 +1,86 @@
+.btn-custom {
+    border-radius: 30px;
+    width: 130px;
+    height: 100%;
+    text-align: center;
+    background-color: #560e4dd6;
+    border: none;
+    margin-left: 10px;
+}
+
+.nav-link {
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding-left: 10px;
+    transition: 0.4s;
+}
+
+.nav-link:focus {
+    color: var(--wh);
+}
+
+.navbar-brand {
+    padding-left: 10px;
+}
+.nav-link:hover {
+    scale: 1.1;
+    color: var(--wh);
+}
+
+.active {
+    color: var(--wh) !important;
+}
+
+.search-custom {
+    background-color: rgba(10, 9, 9, 0.603);
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid var(--wh);
+}
+
+.text-search {
+    color: var(--wh);
+}
+
+.search-button {
+    border-radius: 0px;
+    border-color: var(--wh);
+    color: var(--wh);
+}
+
+.search-button:hover {
+    background-color: var(--gr);
+    border-color: var(--wh);
+}
+
+.flex-form {
+    display: flex;
+    justify-self: end;
+    align-self: center;
+}
+@media screen and (max-width: 992px) {
+    .nav-link {
+        margin-inline: 8px;
+    }
+    .nav-link:hover {
+        scale: 1;
+    }
+
+    .flex-form {
+        flex-direction: column;
+    }
+}
+
+.img-cust {
+    width: 80px;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.logo-nav {
+    width: 70px;
+}

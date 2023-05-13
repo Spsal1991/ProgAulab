@@ -1,0 +1,301 @@
+body {
+    overflow-x: hidden;
+}
+
+.theme-color {
+    color: #0f9989;
+}
+
+.bg-theme-color {
+    background-color: #0f9989;
+}
+
+a.bg-theme-color:hover {
+    background-color: #0b7569;
+}
+
+/* Cards-style */
+.card-prodotti {
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+    transition: 0.2s linear;
+    transform: translateY(0);
+}
+.card-prodotti:hover {
+    color: inherit;
+    transform: translateY(-10px);
+}
+
+.card-img-border {
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.btn-card {
+    background-color: #28ccc7;
+    border: none;
+}
+
+/* ribbons */
+
+/* .ribbon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    border-radius: 0 0 0 10px;
+    border-top-right-radius: 5px;
+   
+    
+  }
+  
+  .ribbon img {
+    width: 33px;
+    height: 33px;
+  
+  }
+  .ribbon-promo {
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+    width: 100%;
+    height: 10%;
+    background-color: #a8dadc;
+    color: red;
+    padding: 5px;
+    text-align: center;
+    text-align: center;
+    
+   
+  } */
+
+/* Categories Icons Carousel Welcome */
+.img-sm {
+    max-width: 100%;
+    height: 75px;
+}
+
+/* Detail Page Custom CLasses */
+
+.user-img-detail {
+    width: 90px;
+    height: 90px;
+}
+
+.logo-deliver-comp {
+    min-width: 50px;
+    height: 50px;
+}
+.card-images-deliver {
+    min-width: 40px;
+    height: 40px;
+}
+
+/* Pagination style classes */
+.prova {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.prova .pagination {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.prova .pagination li {
+    margin: 0 5px;
+}
+
+.prova .pagination a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.prova .pagination a:hover {
+    background-color: #333;
+    color: #fff;
+    box-shadow: none;
+}
+
+.prova .pagination a.active {
+    background-color: #333;
+    color: #fff;
+    box-shadow: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+    line-height: 30px;
+}
+.page-link.active,
+.active > .page-link {
+    z-index: 3;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 30%;
+}
+
+/* Form-Crea-Prodotto */
+.img-crea-prodotto {
+    height: 210px px;
+    width: 250px;
+}
+
+/* Colore Pagina Crea Prodotto */
+.color {
+    background-color: #28ccc7;
+}
+
+.filter-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: pink;
+}
+
+/* Pagina accettazione prodotti Revisore */
+.img-fit {
+    height: 300px;
+    object-fit: cover;
+}
+
+.bg-header {
+    background-size: cover;
+    background-position: center;
+    padding: 32px 0;
+    position: relative;
+}
+.header-bg-img {
+    background-image: url(https://png.pngtree.com/png-clipart/20230319/original/pngtree-clorfull-watercolor-ink-paint-splat-concept-png-image_8995883.png);
+}
+.banner-work-bg {
+    background-image: url(https://png.pngtree.com/png-clipart/20230125/original/pngtree-blue-and-purple-ink-splat-splashes-png-image_8930095.png);
+}
+.bg-header:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bg-header h1 {
+    color: white;
+}
+.bg-header h3 {
+    color: white;
+}
+.bg-header p {
+    color: white;
+}
+.banner-button {
+    background-color: #560e4dd6;
+}
+.delete-btn-detail {
+    opacity: 0;
+}
+
+.delete-btn-detail:hover {
+    opacity: 1;
+}
+.sunset-bg {
+    background-image: url(https://img.freepik.com/free-vector/paper-style-landscape-design_23-2149104823.jpg?w=1380&t=st=1683450119~exp=1683450719~hmac=3efe361718ae69135eb87cb6fb57ceaea71a626a85ee7b0f28c26aca51b2d01a);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sunset-main-bg {
+    background-image: url(https://img.freepik.com/free-vector/paper-style-landscape-design_23-2149104823.jpg?w=1380&t=st=1683450119~exp=1683450719~hmac=3efe361718ae69135eb87cb6fb57ceaea71a626a85ee7b0f28c26aca51b2d01a);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sunset-main-bg:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.register-bg {
+    background-image: url(/public/Media-Css/register-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-register-bg {
+    background-color: #543091c2;
+}
+
+.revisor-card {
+    border-radius: 35px;
+    overflow: hidden;
+    margin-bottom: 30px !important;
+    border: solid 4px #c1e2e1;
+}
+
+/* BOTTONE PAGINA DETTAGLIO */
+
+.contact-button {
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 500;
+    background-color: rgb(40, 204, 199);
+}
+
+
+
+/* Form Crea Prodotto */
+.form-product {
+    padding: 30px 10px;
+    border-radius: 50px;
+}
+.form-product h1 {
+    margin-bottom: 45px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #e5e7ea6e;
+}
+.form-product .form-control {
+    padding: 15px 20px !important;
+    font-weight: 500;
+    min-height: 55px;
+}
+
+
+.btn-bg {
+    background-color: #560e4dd6;
+    color: white;
+}
+
+
+
+  

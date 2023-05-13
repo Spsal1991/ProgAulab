@@ -1,0 +1,51 @@
+/* CLassi form da cancellare una volta sistemato il form del login */
+.login-form {
+    border: 1px solid black;
+    padding: 10px 30px 2px;
+    border-radius: 16px;
+    background-color: white;
+    width: 450px;
+    margin-bottom: 30px;
+}
+.button-3 {
+    border: none;
+    background-color: rgb(61, 210, 186);
+}
+
+.button-3 a:hover {
+    color: white;
+}
+.button-3:hover {
+    color: white;
+}
+
+.input-group .btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    z-index: 5;
+}
+
+.input-group .btn i {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+
+.color-btn {
+    background-color: #e481bb;
+}
+
+.img-profile {
+    width: 200px;
+    height: 200px;
+}
+
+
+
